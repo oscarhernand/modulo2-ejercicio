@@ -1,15 +1,22 @@
+* {
+	box-sizing: border-box;
+}
+
 body{
 	font-size: 100%;
-	box-sizing: border-box;
+
 	font-family: verdana;
 	margin: 0;
 }
 /*posicion de los divs*/
 /*posicion de todo lo que quiero saber/*/
-
-.divFloat {
+.contenedor3{
 	float: left;
 	width: 33.3%;
+}
+.divFloat {
+
+	width: 90%;
 }
 p {
 	border: solid 1px black;
