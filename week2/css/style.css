@@ -12,6 +12,7 @@ body{
 }
 p {
 	border: solid 1px black;
+	color: green;
 }
 
 h1, p{
