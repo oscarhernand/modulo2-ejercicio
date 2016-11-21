@@ -20,7 +20,7 @@ p {
 	/*border: solid 1px red;*/
 	width: 90%;
 	color: green;
-	height: 180px;
+	height: 200px;
 	margin-right: auto;
     margin-left: auto;
     padding: 10px;
@@ -30,10 +30,34 @@ h1, p{
 }
 h2 {
 	text-align: right;
-	padding-right: 20px;
+	padding: 0px 20px 5px 0px;
 	background-color: #F0FFFF;
 	color: 	#5F9EA0;
 }
 h1{
 	color: #2F4F4F;
 }
+@media (max-width: 767px)
+{
+	.contenedor3{
+	width: 100%;
+	float: left;
+	padding-top: 20px;
+	}
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.cont-100{
+	width: 100%;
+	float: left;
+	padding-top: 20px
+	}
+	.cont-50{
+	width: 50%;
+	float: left;
+	padding-top: 20px
+	}
+}
+
+
+
